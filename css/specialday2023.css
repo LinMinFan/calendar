@@ -1,0 +1,76 @@
+.d20230102::after{
+    content: "補假";
+    color: #FF0000;
+    }
+.d20230120::after{
+    content: "補假";
+    color: #FF0000;
+    }
+.d20230121::after{
+    content: "除夕";
+    color: #FF0000;
+    }
+.d20230122::after{
+    content: "初一";
+    color: #FF0000;
+    }
+.d20230123::after{
+    content: "初二";
+    color: #FF0000;
+    }
+.d20230124::after{
+    content: "初三";
+    color: #FF0000;
+    }
+.d20230125::after{
+    content: "初四";
+    color: #FF0000;
+    }
+.d20230126::after{
+    content: "初五";
+    color: #FF0000;
+    }
+.d20230401::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20230402::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20230403::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20230405::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20230622::after{
+    content: "端午節";
+    color: #FF0000;
+    }
+.d20230623::after{
+    content: "端午節";
+    color: #FF0000;
+    }
+.d20230624::after{
+    content: "端午節";
+    color: #FF0000;
+    }
+.d20230625::after{
+    content: "端午節";
+    color: #FF0000;
+    }
+.d20230929::after{
+    content: "中秋節";
+    color: #FF0000;
+    }
+.d20230930::after{
+    content: "中秋節";
+    color: #FF0000;
+    }
+.d20231001::after{
+    content: "中秋節";
+    color: #FF0000;
+    }

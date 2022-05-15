@@ -1,0 +1,44 @@
+.d20211231::after{
+    content: "補假";
+    color: #FF0000;
+    }
+.d20220131::after{
+    content: "除夕";
+    color: #FF0000;
+    }
+.d20220201::after{
+    content: "初一";
+    color: #FF0000;
+    }
+.d20220202::after{
+    content: "初二";
+    color: #FF0000;
+    }
+.d20220203::after{
+    content: "初三";
+    color: #FF0000;
+    }
+.d20220204::after{
+    content: "初四";
+    color: #FF0000;
+    }
+.d20220402::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20220403::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20220405::after{
+    content: "清明節";
+    color: #FF0000;
+    }
+.d20220603::after{
+    content: "端午節";
+    color: #FF0000;
+    }
+.d20220909::after{
+    content: "中秋節";
+    color: #FF0000;
+    }
