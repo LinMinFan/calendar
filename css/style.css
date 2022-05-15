@@ -91,6 +91,12 @@ body{
     color: #FFFFFF;
     font-weight: bold;
 }
+.select{
+    position: absolute;
+    right: 250px;
+    bottom: 10px;
+    color: #FFFFFF;
+}
 .home{
     text-decoration: none;
     font-size: 18px;
@@ -113,7 +119,7 @@ body{
     width: 960px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
     position: relative;
 }

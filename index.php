@@ -92,57 +92,98 @@
                 <?= $month . '月'; ?>
             </div>
             <?php
-                switch($year%12){
-                    case 1:?>
-                    <div class="zodiac">雞年</div><?php
-                    ;
-                    break;
-                    case 2:?>
-                    <div class="zodiac">狗年</div><?php
-                    ;
-                    break;
-                    case 3: ?> 
-                    <div class="zodiac">豬年</div><?php
-                    ;
-                    break;
-                    case 4: ?> 
-                    <div class="zodiac">鼠年</div><?php
-                    ;
-                    break;
-                    case 5: ?> 
-                    <div class="zodiac">牛年</div><?php
-                    ;
-                    break;
-                    case 6: ?> 
-                    <div class="zodiac">虎年</div><?php
-                    ;
-                    break;
-                    case 7: ?> 
-                    <div class="zodiac">兔年</div><?php
-                    ;
-                    break;
-                    case 8: ?> 
-                    <div class="zodiac">龍年</div><?php
-                    ;
-                    break;
-                    case 9: ?> 
-                    <div class="zodiac">蛇年</div><?php
-                    ;
-                    break;
-                    case 10: ?> 
-                    <div class="zodiac">馬年</div><?php
-                    ;
-                    break;
-                    case 11: ?> 
-                    <div class="zodiac">羊年</div><?php
-                    ;
-                    break;
-                    case 0: ?> 
-                    <div class="zodiac">猴年</div><?php
-                    ;
-                    break;
-                }
+            switch ($year % 12) {
+                case 1: ?>
+                    <div class="zodiac">雞年</div><?php ;
+                                                break;
+                                            case 2: ?>
+                    <div class="zodiac">狗年</div><?php ;
+                                                break;
+                                            case 3: ?>
+                    <div class="zodiac">豬年</div><?php ;
+                                                break;
+                                            case 4: ?>
+                    <div class="zodiac">鼠年</div><?php ;
+                                                break;
+                                            case 5: ?>
+                    <div class="zodiac">牛年</div><?php ;
+                                                break;
+                                            case 6: ?>
+                    <div class="zodiac">虎年</div><?php ;
+                                                break;
+                                            case 7: ?>
+                    <div class="zodiac">兔年</div><?php ;
+                                                break;
+                                            case 8: ?>
+                    <div class="zodiac">龍年</div><?php ;
+                                                break;
+                                            case 9: ?>
+                    <div class="zodiac">蛇年</div><?php ;
+                                                break;
+                                            case 10: ?>
+                    <div class="zodiac">馬年</div><?php ;
+                                                break;
+                                            case 11: ?>
+                    <div class="zodiac">羊年</div><?php ;
+                                                break;
+                                            case 0: ?>
+                    <div class="zodiac">猴年</div><?php ;
+                                                break;
+                                        }
+                                                ?>
+
+
+
+            <?php
+
+            $py1 = $year - 1;
+            $py2 = $year - 2;
+            $py3 = $year - 3;
+            $py4 = $year - 4;
+            $py5 = $year - 5;
+            $ny1 = $year + 1;
+            $ny2 = $year + 2;
+            $ny3 = $year + 3;
+            $ny4 = $year + 4;
+            $ny5 = $year + 5;
+
             ?>
+            <form class="select" action="index.php" method="get">
+                <div class="button">
+                    <select id="" name="year">
+                        <option value="">--選擇--</option>
+                        <option value="<?= $ny5; ?>"><?= $ny5; ?></option>
+                        <option value="<?= $ny4; ?>"><?= $ny4; ?></option>
+                        <option value="<?= $ny3; ?>"><?= $ny3; ?></option>
+                        <option value="<?= $ny2; ?>"><?= $ny2; ?></option>
+                        <option value="<?= $ny1; ?>"><?= $ny1; ?></option>
+                        <option value="<?= $py1; ?>"><?= $py1; ?></option>
+                        <option value="<?= $py2; ?>"><?= $py2; ?></option>
+                        <option value="<?= $py3; ?>"><?= $py3; ?></option>
+                        <option value="<?= $py4; ?>"><?= $py4; ?></option>
+                        <option value="<?= $py5; ?>"><?= $py5; ?></option>
+                    </select>
+                    <label for="">年</label>
+                    <select id="" name="month">
+                    <option value="">--選擇--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label for="">月</label>
+                    <input type="submit" value="前往">
+
+                </div>
+            </form>
             <a class="home" href="index.php">
                 <div>
                     <i class="fa-solid fa-house"></i>
@@ -200,19 +241,18 @@
 
                 foreach ($dateHouse as $k => $day) {
                     $hol = ($k % 7 == 0 || $k % 7 == 6) ? "weekend" : "workday";
-                    $specialday=date("md",strtotime($day));
+                    $specialday = date("md", strtotime($day));
 
                     if (!empty($day)) {
 
                         $dayFormat = date("j", strtotime($day));
                         if (strtotime($day) == strtotime(date("Ymd"))) {
-                        echo     "<div class='{$hol} font'>{$dayFormat}<div class='note dtoday d{$day} d{$specialday}'>今天</div></div>";
-                        }else{
+                            echo     "<div class='{$hol} font'>{$dayFormat}<div class='note dtoday d{$day} d{$specialday}'>今天</div></div>";
+                        } else {
                             echo "<div class='{$hol} font'>{$dayFormat}<div class='note d{$day} d{$specialday}'></div></div>";
                         }
-
                     } else {
-                        echo "<div class='{$hol} font'><div class='note d{$day}'></div></div>";
+                        echo "<div class='{$hol} font'><div class='note d{$day}'><i class='fa-solid fa-cat'></i></div></div>";
                     }
                 }
 
