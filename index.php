@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div class="wrapper">
     <div class="star">
         <div class="st1"></div>
         <div class="st2"></div>
