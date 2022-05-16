@@ -23,6 +23,13 @@
         <div class="st3"></div>
         <div class="st4"></div>
         <div class="st5"></div>
+        <div class="st6"></div>
+        <div class="st7"></div>
+        <div class="st8"></div>
+        <div class="st9"></div>
+        <div class="st10"></div>
+        <div class="st11"></div>
+        <div class="st12"></div>
         <!-- <audio  autoplay loop>
   <source src="./mp3/[BTCLOD.COM] MusicbyAden - Alive (Vlog No Copyright Music)-64k.MP3" >
     </audio>

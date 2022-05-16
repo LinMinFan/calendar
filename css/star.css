@@ -197,3 +197,87 @@
         top: 400px;
     }
 }
+.st6{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: 70px;
+}
+.st7{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    top:40px;
+    left:30px
+}
+.st8{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    top:70px;
+    left:60px
+}
+.st9{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top:110px;
+    left:35px
+}
+.st10{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top:130px;
+    left:70px
+}
+.st11{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    top:165px;
+    left:105px
+}
+.st12{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-image: url(../images/stars-white.png);
+    animation-name: stt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    top:160px;
+    left:160px
+}
+@keyframes stt{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
