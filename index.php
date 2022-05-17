@@ -18,18 +18,84 @@
 <body>
     <div class="wrapper">
     <div class="star">
-        <div class="st1"></div>
-        <div class="st2"></div>
-        <div class="st3"></div>
-        <div class="st4"></div>
-        <div class="st5"></div>
-        <div class="st6"></div>
-        <div class="st7"></div>
-        <div class="st8"></div>
-        <div class="st9"></div>
-        <div class="st10"></div>
-        <div class="st11"></div>
-        <div class="st12"></div>
+        <div class="st1">
+            <div class="line"></div>
+        </div>
+        <div class="st2">
+            <div class="line"></div>
+        </div>
+        <div class="st3">
+            <div class="line"></div>
+        </div>
+        <div class="st4">
+            <div class="line"></div>
+        </div>
+        <div class="st5">
+            <div class="line"></div>
+        </div>
+        <div class="st6">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st7">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st8">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st9">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st10">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st11">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
+        <div class="st12">
+        <div class="light">
+        <div class="straight1"></div>
+        <div class="straight2"></div>
+        <div class="straight3"></div>
+        <div class="straight4"></div>
+    </div>
+
+        </div>
         <!-- <audio  autoplay loop>
   <source src="./mp3/[BTCLOD.COM] MusicbyAden - Alive (Vlog No Copyright Music)-64k.MP3" >
     </audio>

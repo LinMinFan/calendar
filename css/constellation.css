@@ -2,133 +2,181 @@
     background-image: url(../images/capricorn1.png);
 }
 .cb1{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c2{
     background-image: url(../images/aquarius2.png);
 }
 .cb2{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c3{
     background-image: url(../images/fische3.png);
 }
 .cb3{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c4{
     background-image: url(../images/aries4.png);
 }
 .cb4{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c5{
     background-image: url(../images/taurus5.png);
 }
 .cb5{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c6{
     background-image: url(../images/gemini6.png);
 }
 .cb6{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c7{
     background-image: url(../images/cancer7.png);
 }
 .cb7{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c8{
     background-image: url(../images/leo8.png);
 }
 .cb8{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c9{
     background-image: url(../images/virgo9.png);
 }
 .cb9{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c10{
     background-image: url(../images/libra10.png);
 }
 .cb10{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 .c11{
     background-image: url(../images/scorpio11.png);
     }
 .cb11{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
     }
 .c12{
     background-image: url(../images/sagittarius12.png);
 }
 .cb12{
-    background-image: url(../images/white.png);
-    opacity: 0.8;
+    width: 200px;
+    height: 200px;
+    background-image:radial-gradient(#FFFFFF,#000000);
+    border-radius: 50%;
     animation-name: cover;
-    animation-duration: 0.8s;
+    animation-duration: 0.7s;
     animation-fill-mode: forwards;
+    opacity: 0.5;
+    box-shadow: 0px 0px 20px #ffee00 inset;
 }
 @keyframes cover{
     0%{
-        top:   0px;
+        height: 240px;
+        width: 240px;
         left: 230px;
-        height:200px;
-        width: 200px;
+        top: 0;
     }
     100%{
-        top:  0px;
-        left: 230px;
-        width: 200px;
         height: 0px;
-    }
+        width: 0px;
+        left: 480px;
+        top: 0px;
+}
 }
