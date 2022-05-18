@@ -140,16 +140,226 @@
                 $nextMonth = $month + 1;
                 $nextYear = $year;
         }
-
-
-
         ?>
-
-
-
 
         <div class='nav'>
             <div class="constellation c<?= $month ?>">
+            <?php
+            switch ($month) {
+                case 1:
+                    ?>
+                    <div class="capricorn">
+                         <div class="capricorn1"></div>
+                         <div class="capricorn2"></div>
+                         <div class="capricorn3"></div>
+                         <div class="capricorn4"></div>
+                         <div class="capricorn5"></div>
+                         <div class="capricorn6"></div>
+                         <div class="capricorn7"></div>
+                        <div class="capricorn8"></div>
+                         <div class="capricorn9"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 2:
+                    ?>
+                     <div class="aqurius">
+                         <div class="aqurius1"></div>
+                         <div class="aqurius2"></div>
+                         <div class="aqurius3"></div>
+                         <div class="aqurius4"></div>
+                         <div class="aqurius5"></div>
+                         <div class="aqurius6"></div>
+                         <div class="aqurius7"></div>
+                         <div class="aqurius8"></div>
+                         <div class="aqurius9"></div>
+                         <div class="aqurius10"></div>
+                     </div>
+                    <?php ;
+
+                    break;
+                case 3:
+                    ?>
+                    <div class="pisces">
+                        <div class="pisces1"></div>
+                        <div class="pisces2"></div>
+                        <div class="pisces3"></div>
+                        <div class="pisces4"></div>
+                        <div class="pisces5"></div>
+                        <div class="pisces6"></div>
+                        <div class="pisces7"></div>
+                        <div class="pisces8"></div>
+                        <div class="pisces9"></div>
+                        <div class="pisces10"></div>
+                        <div class="pisces11"></div>
+                        <div class="pisces12"></div>
+                        <div class="pisces13"></div>
+                        <div class="pisces14"></div>
+                        <div class="pisces15"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 4:
+                    ?>
+                     <div class="aries">
+                         <div class="aries1"></div>
+                         <div class="aries2"></div>
+                         <div class="aries3"></div>
+                         <div class="aries4"></div>
+                         <div class="aries5"></div>
+                         <div class="aries6"></div>
+                         <div class="aries7"></div>
+                     </div>
+                    <?php ;
+
+                    break;
+                case 5:
+                    ?>
+                    <div class="taurus">
+                        <div class="taurus1"></div>
+                        <div class="taurus2"></div>
+                        <div class="taurus3"></div>
+                        <div class="taurus4"></div>
+                        <div class="taurus5"></div>
+                        <div class="taurus6"></div>
+                        <div class="taurus7"></div>
+                        <div class="taurus8"></div>
+                        <div class="taurus9"></div>
+                        <div class="taurus10"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 6:
+                    ?>
+                    <div class="gemini">
+                        <div class="gemini1"></div>
+                        <div class="gemini2"></div>
+                        <div class="gemini3"></div>
+                        <div class="gemini4"></div>
+                        <div class="gemini5"></div>
+                        <div class="gemini6"></div>
+                        <div class="gemini7"></div>
+                        <div class="gemini8"></div>
+                        <div class="gemini9"></div>
+                        <div class="gemini10"></div>
+                        <div class="gemini11"></div>
+                        <div class="gemini12"></div>
+                        <div class="gemini13"></div>
+                        <div class="gemini14"></div>
+                        <div class="gemini15"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 7:
+                    ?>
+                    <div class="cancer">
+                        <div class="cancer1"></div>
+                        <div class="cancer2"></div>
+                        <div class="cancer3"></div>
+                        <div class="cancer4"></div>
+                        <div class="cancer5"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 8:
+                    ?>
+                    <div class="leo">
+                        <div class="leo1"></div>
+                        <div class="leo2"></div>
+                        <div class="leo3"></div>
+                        <div class="leo4"></div>
+                        <div class="leo5"></div>
+                        <div class="leo6"></div>
+                        <div class="leo7"></div>
+                        <div class="leo8"></div>
+                        <div class="leo9"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 9:
+                    ?>
+                    <div class="virgo">
+                        <div class="virgo1"></div>
+                        <div class="virgo2"></div>
+                        <div class="virgo3"></div>
+                        <div class="virgo4"></div>
+                        <div class="virgo5"></div>
+                        <div class="virgo6"></div>
+                        <div class="virgo7"></div>
+                        <div class="virgo8"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 10:
+                    ?>
+                    <div class="libra">
+                        <div class="libra1"></div>
+                        <div class="libra2"></div>
+                        <div class="libra3"></div>
+                        <div class="libra4"></div>
+                        <div class="libra5"></div>
+                        <div class="libra6"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 11:
+                    ?>
+                    <div class="scorpio">
+                        <div class="scorpio1"></div>
+                        <div class="scorpio2"></div>
+                        <div class="scorpio3"></div>
+                        <div class="scorpio4"></div>
+                        <div class="scorpio5"></div>
+                        <div class="scorpio6"></div>
+                        <div class="scorpio7"></div>
+                        <div class="scorpio8"></div>
+                        <div class="scorpio9"></div>
+                        <div class="scorpio10"></div>
+                        <div class="scorpio11"></div>
+                        <div class="scorpio12"></div>
+                        <div class="scorpio13"></div>
+                        <div class="scorpio14"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                case 12:
+                    ?>
+                    <div class="sagittarius">
+                        <div class="sagittarius1"></div>
+                        <div class="sagittarius2"></div>
+                        <div class="sagittarius3"></div>
+                        <div class="sagittarius4"></div>
+                        <div class="sagittarius5"></div>
+                        <div class="sagittarius6"></div>
+                        <div class="sagittarius7"></div>
+                        <div class="sagittarius8"></div>
+                        <div class="sagittarius9"></div>
+                        <div class="sagittarius10"></div>
+                        <div class="sagittarius11"></div>
+                        <div class="sagittarius12"></div>
+                        <div class="sagittarius13"></div>
+                        <div class="sagittarius14"></div>
+                        <div class="sagittarius15"></div>
+                        <div class="sagittarius16"></div>
+                        <div class="sagittarius17"></div>
+                    </div>
+                    <?php ;
+
+                    break;
+                
+                default:
+                    break;
+            }
+            ?>
             </div>
             <div class="constellation cb<?= $month ?>">
             </div>
@@ -169,42 +379,42 @@
             switch ($year % 12) {
                 case 1: ?>
                     <div class="zodiac">雞年</div><?php ;
-                                                break;
-                                            case 2: ?>
+                    break;
+                case 2: ?>
                     <div class="zodiac">狗年</div><?php ;
-                                                break;
-                                            case 3: ?>
+                    break;
+                case 3: ?>
                     <div class="zodiac">豬年</div><?php ;
-                                                break;
-                                            case 4: ?>
+                    break;
+                case 4: ?>
                     <div class="zodiac">鼠年</div><?php ;
-                                                break;
-                                            case 5: ?>
+                    break;
+                case 5: ?>
                     <div class="zodiac">牛年</div><?php ;
-                                                break;
-                                            case 6: ?>
+                    break;
+                 case 6: ?>
                     <div class="zodiac">虎年</div><?php ;
-                                                break;
-                                            case 7: ?>
+                    break;
+                case 7: ?>
                     <div class="zodiac">兔年</div><?php ;
-                                                break;
-                                            case 8: ?>
+                    break;
+                case 8: ?>
                     <div class="zodiac">龍年</div><?php ;
-                                                break;
-                                            case 9: ?>
+                    break;
+                case 9: ?>
                     <div class="zodiac">蛇年</div><?php ;
-                                                break;
-                                            case 10: ?>
+                    break;
+                case 10: ?>
                     <div class="zodiac">馬年</div><?php ;
-                                                break;
-                                            case 11: ?>
+                    break;
+                case 11: ?>
                     <div class="zodiac">羊年</div><?php ;
-                                                break;
-                                            case 0: ?>
+                    break;
+                case 0: ?>
                     <div class="zodiac">猴年</div><?php ;
-                                                break;
-                                        }
-                                                ?>
+                    break;
+                }
+                ?>
 
 
 

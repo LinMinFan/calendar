@@ -1,6 +1,134 @@
-.c1{
-    background-image: url(../images/capricorn1.png);
+.capricorn{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.capricorn1{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 40px;
+    bottom: 72px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn2{
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(20deg);
+    left: 62px;
+    bottom: 49px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn3{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 118px;
+    bottom: 44px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn4{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 111px;
+    bottom: 70px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn5{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-60deg);
+    left: 128px;
+    bottom: 97px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn6{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 129px;
+    bottom: 114px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn7{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-35deg);
+    left: 92px;
+    bottom: 89px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn8{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(7deg);
+    left: 66px;
+    bottom: 77px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.capricorn9{
+    background-color: #FFFFFF;
+    width: 18px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(19deg);
+    left: 48px;
+    bottom: 82px;
+    animation-name: capricorn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes capricorn{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb1{
     width: 200px;
     height: 200px;
@@ -12,9 +140,150 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c2{
-    background-image: url(../images/aquarius2.png);
+.aqurius{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.aqurius1{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(15deg);
+    right: 50px;
+    bottom: 50px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius2{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    right: 80px;
+    bottom: 52px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius3{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-80deg);
+    right: 93px;
+    bottom: 39px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius4{
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(30deg);
+    right: 102px;
+    bottom: 46px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius5{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(95deg);
+    right: 149px;
+    bottom: 69px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius6{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(75deg);
+    right: 151px;
+    bottom: 85px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius7{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(185deg);
+    right: 129px;
+    bottom: 92px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius8{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(150deg);
+    right: 109px;
+    bottom: 96px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius9{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(110deg);
+    right: 131px;
+    bottom: 114px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aqurius10{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(100deg);
+    right: 126px;
+    bottom: 149px;
+    animation-name: aqurius;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes aqurius{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb2{
     width: 200px;
     height: 200px;
@@ -26,9 +295,215 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c3{
-    background-image: url(../images/fische3.png);
+.pisces{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.pisces1{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-60deg);
+    right: 40px;
+    top: 45px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces2{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-125deg);
+    right: 40px;
+    top: 59px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces3{
+    background-color: #FFFFFF;
+    width: 13px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 42px;
+    top: 70px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces4{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-40deg);
+    right: 52px;
+    top: 58px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces5{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 53px;
+    top: 69px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces6{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(148deg);
+    right: 53px;
+    top: 80px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces7{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(115deg);
+    right: 57px;
+    top: 102px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces8{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(145deg);
+    right: 84px;
+    top: 125px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces9{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(110deg);
+    right: 94px;
+    top: 137px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces10{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(145deg);
+    right: 103px;
+    top: 150px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces11{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 116px;
+    top: 149px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces12{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(71deg);
+    right: 116px;
+    top: 124px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces13{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(100deg);
+    right: 134px;
+    top: 96px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces14{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-26deg);
+    right: 142px;
+    top: 93px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.pisces15{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(31deg);
+    right: 144px;
+    top: 100px;
+    animation-name: pisces;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes pisces{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb3{
     width: 200px;
     height: 200px;
@@ -40,9 +515,111 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c4{
-    background-image: url(../images/aries4.png);
+.aries{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.aries1{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-70deg);
+    left: 50px;
+    bottom: 50px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries2{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-100deg);
+    left: 46px;
+    bottom: 75px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries3{
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-35deg);
+    left: 52px;
+    bottom: 112px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries4{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-55deg);
+    left: 115px;
+    bottom: 139px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries5{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 127px;
+    bottom: 142px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries6{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(30deg);
+    left: 118px;
+    bottom: 127px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.aries7{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(65deg);
+    left: 135px;
+    bottom: 117px;
+    animation-name: aries;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes aries{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb4{
     width: 200px;
     height: 200px;
@@ -54,8 +631,148 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c5{
-    background-image: url(../images/taurus5.png);
+.taurus{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.taurus1{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 62px;
+    bottom: 36px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88;
+}
+.taurus2{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(95deg);
+    right: 69px;
+    bottom: 48px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88;
+}
+.taurus3{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(18deg);
+    right: 46px;
+    bottom: 51px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88;
+}
+.taurus4{
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(30deg);
+    right: 75px;
+    bottom: 62px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus5{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(60deg);
+    right: 34px;
+    bottom: 39px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus6{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(15deg);
+    right: 100px;
+    bottom: 71px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus7{
+    background-color: #FFFFFF;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(95deg);
+    right: 91px;
+    bottom: 78px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus8{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 110px;
+    bottom: 88px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus9{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(65deg);
+    right: 86px;
+    bottom: 105px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.taurus10{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(65deg);
+    right: 104px;
+    bottom: 144px;
+    animation-name: taurus;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes taurus{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
 }
 .cb5{
     width: 200px;
@@ -68,9 +785,215 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c6{
-    background-image: url(../images/gemini6.png);
+.gemini{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.gemini1{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 100px;
+    bottom: 40px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini2{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(75deg);
+    right: 110px;
+    bottom: 57px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini3{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(20deg);
+    right: 92px;
+    bottom: 64px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini4{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(70deg);
+    right: 71px;
+    bottom: 44px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini5{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 121px;
+    bottom: 77px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini6{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-59deg);
+    right: 135px;
+    bottom: 77px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini7{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(55deg);
+    right: 136px;
+    bottom: 94px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini8{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    right: 119px;
+    bottom: 89px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini9{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 101px;
+    bottom: 100px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini10{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(15deg);
+    right: 104px;
+    bottom: 111px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini11{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(110deg);
+    right: 89px;
+    bottom: 118px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini12{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(40deg);
+    right: 67px;
+    bottom: 95px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini13{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(79deg);
+    right: 47px;
+    bottom: 60px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini14{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(40deg);
+    right: 51px;
+    bottom: 75px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.gemini15{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    right: 32px;
+    bottom: 71px;
+    animation-name: gemini;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes gemini   {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb6{
     width: 200px;
     height: 200px;
@@ -82,9 +1005,85 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c7{
-    background-image: url(../images/cancer7.png);
+.cancer{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.cancer1{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 40px;
+    bottom: 50px;
+    animation-name: cancer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.cancer2{
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(70deg);
+    right: 80px;
+    bottom: 73px;
+    animation-name: cancer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.cancer3{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 96px;
+    bottom: 95px;
+    animation-name: cancer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.cancer4{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(70deg);
+    right: 83px;
+    bottom: 105px;
+    animation-name: cancer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.cancer5{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    right: 136px;
+    bottom: 101px;
+    animation-name: cancer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes cancer{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb7{
     width: 200px;
     height: 200px;
@@ -96,9 +1095,137 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c8{
-    background-image: url(../images/leo8.png);
+.leo{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.leo1{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 35px;
+    bottom: 50px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo2{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(30deg);
+    left: 52px;
+    bottom: 50px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo3{
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-35deg);
+    left: 75px;
+    bottom: 62px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo4{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(65deg);
+    left: 126px;
+    bottom: 93px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo5{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(20deg);
+    left: 141px;
+    bottom: 79px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo6{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(20deg);
+    left: 121px;
+    bottom: 105px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo7{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(59deg);
+    left: 105px;
+    bottom: 117px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo8{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-33deg);
+    left: 108px;
+    bottom: 130px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.leo9{
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(30deg);
+    left: 119px;
+    bottom: 130px;
+    animation-name: leo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes leo{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb8{
     width: 200px;
     height: 200px;
@@ -110,9 +1237,124 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c9{
-    background-image: url(../images/virgo9.png);
+.virgo{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.virgo1{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 50px;
+    bottom: 40px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo2{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(40deg);
+    left: 53px;
+    bottom: 50px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo3{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(15deg);
+    left: 24px;
+    bottom: 61px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo4{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-40deg);
+    left: 66px;
+    bottom: 60px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo5{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(70deg);
+    left: 98px;
+    bottom: 86px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo6{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(105deg);
+    left: 94px;
+    bottom: 112px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo7{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 113px;
+    bottom: 80px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.virgo8{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-50deg);
+    left: 140px;
+    bottom: 92px;
+    animation-name: virgo;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes virgo{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb9{
     width: 200px;
     height: 200px;
@@ -124,9 +1366,98 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c10{
-    background-image: url(../images/libra10.png);
+.libra{
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
+.libra1{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 41px;
+    bottom: 45px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.libra2{
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-55deg);
+    left: 59px;
+    bottom: 77px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.libra3{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 106px;
+    bottom: 107px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.libra4{
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 116px;
+    bottom: 94px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.libra5{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-55deg);
+    left: 106px;
+    bottom: 55px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.libra6{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 96px;
+    bottom: 30px;
+    animation-name: libra;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes libra{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb10{
     width: 200px;
     height: 200px;
@@ -138,9 +1469,202 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
 }
-.c11{
-    background-image: url(../images/scorpio11.png);
+.scorpio{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.scorpio1{
+    background-color: #FFFFFF;
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(60deg);
+    left: 40px;
+    bottom: 70px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio2{
+    background-color: #FFFFFF;
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(120deg);
+    left: 59px;
+    bottom: 70px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio3{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-40deg);
+    left: 49px;
+    bottom: 48px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio4{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(35deg);
+    left: 49px;
+    bottom: 35px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio5{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-10deg);
+    left: 68px;
+    bottom: 32px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio6{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-35deg);
+    left: 87px;
+    bottom: 40px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio7{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-75deg);
+    left: 95px;
+    bottom: 61px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio8{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-85deg);
+    left: 105px;
+    bottom: 87px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio9{
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 112px;
+    bottom: 108px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio10{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-70deg);
+    left: 132px;
+    bottom: 129px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio11{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(40deg);
+    left: 144px;
+    bottom: 132px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio12{
+    background-color: #FFFFFF;
+    width: 29px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(40deg);
+    left: 135px;
+    bottom: 109px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio13{
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 149px;
+    bottom: 113px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+.scorpio14{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    transform: rotate(-50deg);
+    left: 145px;
+    bottom: 92px;
+    animation-name: scorpio;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 15px #ffff88 ;
+}
+@keyframes scorpio{
+    from{
+        width: 0;
     }
+    to{
+        width: 100 ;
+    }
+}
+
 .cb11{
     width: 200px;
     height: 200px;
@@ -152,9 +1676,241 @@
     opacity: 0.5;
     box-shadow: 0px 0px 20px #ffee00 inset;
     }
-.c12{
-    background-image: url(../images/sagittarius12.png);
-}
+    .sagittarius{
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+    .sagittarius1{
+        background-color: #FFFFFF;
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-80deg);
+        right: 25px;
+        top: 72px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius2{
+        background-color: #FFFFFF;
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-50deg);
+        right: 38px;
+        top: 99px;
+        animation-name: aqsagittariusrius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius3{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(75deg);
+        right: 59px;
+        top: 103px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius4{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(110deg);
+        right: 58px;
+        top: 88px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius5{
+        background-color: #FFFFFF;
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(31deg);
+        right: 62px;
+        top: 75px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius6{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(36deg);
+        right: 80px;
+        top: 64px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius7{
+        background-color: #FFFFFF;
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-30deg);
+        right: 80px;
+        top: 74px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius8{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(110deg);
+        right: 83px;
+        top: 51px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius9{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(57deg);
+        right: 92px;
+        top: 53px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius10{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-12deg);
+        right: 88px;
+        top: 45px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius11{
+        background-color: #FFFFFF;
+        width: 15px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(49deg);
+        right: 102px;
+        top: 39px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius12{
+        background-color: #FFFFFF;
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-30deg);
+        right: 94px;
+        top: 65px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius13{
+        background-color: #FFFFFF;
+        width: 17px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(30deg);
+        right: 98px;
+        top: 75px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius14{
+        background-color: #FFFFFF;
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(-60deg);
+        right: 85px;
+        top: 106px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius15{
+        background-color: #FFFFFF;
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(80deg);
+        right: 118px;
+        top: 143px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius16{
+        background-color: #FFFFFF;
+        width: 50px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(135deg);
+        right: 107px;
+        top: 88px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    .sagittarius17{
+        background-color: #FFFFFF;
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        transform: rotate(85deg);
+        right: 134px;
+        top: 121px;
+        animation-name: sagittarius;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        box-shadow: 0 0 15px #ffff88 ;
+    }
+    @keyframes sagittarius{
+        from{
+            width: 0;
+        }
+        to{
+            width: 100 ;
+        }
+    }
+
 .cb12{
     width: 200px;
     height: 200px;
@@ -168,15 +1924,15 @@
 }
 @keyframes cover{
     0%{
-        height: 240px;
-        width: 240px;
+        height: 200px;
+        width: 200px;
         left: 230px;
         top: 0;
     }
     100%{
         height: 0px;
         width: 0px;
-        left: 480px;
-        top: 0px;
+        left: 400px;
+        top: 40px;
 }
 }
