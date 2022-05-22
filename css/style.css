@@ -186,6 +186,18 @@ body{
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    animation-name: opacity;
+    animation-duration: 1s;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+        height: 0px;
+    }
+    100%{
+        opacity: 1;
+        height: 80px;
+    }
 }
 .header{
     width: 90px;

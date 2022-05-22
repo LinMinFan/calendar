@@ -539,7 +539,7 @@ date_default_timezone_set('Asia/Taipei'); //宣告時區
                             echo "<div class='{$hol} font'>{$dayFormat}<div class='note d{$day} d{$specialday}'></div></div>";
                         }
                     } else {
-                        echo "<div class='{$hol} font'><div class='note d{$day}'><i class='fa-solid fa-cat'></i></div></div>";
+                        echo "<div class='{$hol} font'><div class='note'><i class='fa-solid fa-cat'></i></div></div>";
                     }
                 }
 
