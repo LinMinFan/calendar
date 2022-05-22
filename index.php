@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="./css/holiday.css">
 </head>
 
-<body>
+<body onload="current_time()">
+    <?php
+date_default_timezone_set('Asia/Taipei'); //宣告時區
+?>
     <div class="wrapper">
     <div class="star">
         <div class="st1">
@@ -416,7 +419,7 @@
                 }
                 ?>
 
-
+            <span class="time" id="current"></span>
 
             <?php
 
@@ -435,7 +438,7 @@
             <form class="select" action="index.php" method="get">
                 <div class="button">
                     <select id="" name="year">
-                        <option value="">--選擇--</option>
+                        <option value="<?= $year; ?>">--選擇--</option>
                         <option value="<?= $ny5; ?>"><?= $ny5; ?></option>
                         <option value="<?= $ny4; ?>"><?= $ny4; ?></option>
                         <option value="<?= $ny3; ?>"><?= $ny3; ?></option>
@@ -449,7 +452,7 @@
                     </select>
                     <label for="">年</label>
                     <select id="" name="month">
-                    <option value="">--選擇--</option>
+                    <option value="<?= $month; ?>">--選擇--</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -550,6 +553,7 @@
 
     </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

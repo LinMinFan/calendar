@@ -97,6 +97,13 @@ body{
     bottom: 10px;
     color: #FFFFFF;
 }
+.time{
+    position: absolute;
+    left: 165px;
+    bottom: 10px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 10px #000000;
+}
 .home{
     text-decoration: none;
     font-size: 18px;
