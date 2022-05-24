@@ -1,0 +1,42 @@
+.message{
+    position: absolute;
+    top: 270px;
+    right: -100px;
+    width: 165px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    animation-name: message;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    box-shadow: 0 5px 20px #FFFFFF;
+    opacity: 0.7;
+    font-style: italic;
+    font-weight: bold;
+}
+@keyframes message{
+    0%{
+        top: 270px;
+    }
+    50%{
+        top: 330px;
+    }
+    100%{
+        top: 270px;
+    }
+}
+.poetry{
+    text-align: center;
+    line-height: 25px;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 30px 10px 0px 10px;
+    border-color: #FFFFFF transparent transparent ;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 88px;
+    right: 140px;
+}
