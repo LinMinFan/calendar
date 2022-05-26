@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./css/message.css">
 </head>
 
-<body onload="current_time()">
+<body>
+<div class="flip" id="cat"></div>
     <?php
     date_default_timezone_set('Asia/Taipei'); //宣告時區
     ?>

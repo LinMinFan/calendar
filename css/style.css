@@ -5,6 +5,7 @@ body{
     background-image: url(https://picsum.photos/id/654/2509/1300);
     background-size: cover;
     height: 120vh;
+    position: relative;
 }
 
 .wrapper{
