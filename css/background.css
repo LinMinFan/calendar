@@ -1,0 +1,35 @@
+.bubble{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.bubble span{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: #373BE0;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #2B2EAD,
+    0 0 50px #373BE0,
+    0 0 100px #373BE0;
+    animation-name: bubble;
+    animation-duration: calc(80s / var(--i));
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.bubble span:nth-child(even){
+    background-color: #E0D300;
+    box-shadow: 0 0 0 10px #ADA500,
+    0 0 50px #E0D300,
+    0 0 100px #E0D300;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}

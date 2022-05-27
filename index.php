@@ -14,9 +14,58 @@
     <link rel="stylesheet" href="./css/specialday2023.css">
     <link rel="stylesheet" href="./css/holiday.css">
     <link rel="stylesheet" href="./css/message.css">
+    <link rel="stylesheet" href="./css/background.css">
 </head>
 
 <body>
+<div class="bubble">
+            <span style="--i:13"></span>
+            <span style="--i:12"></span>
+            <span style="--i:14"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+            <span style="--i:15"></span>
+            <span style="--i:14"></span>
+            <span style="--i:16"></span>
+            <span style="--i:25"></span>
+            <span style="--i:13"></span>
+            <span style="--i:14"></span>
+            <span style="--i:15"></span>
+            <span style="--i:15"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+            <span style="--i:13"></span>
+            <span style="--i:20"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+            <span style="--i:25"></span>
+            <span style="--i:19"></span>
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:15"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+            <span style="--i:13"></span>
+            <span style="--i:15"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+            <span style="--i:13"></span>
+            <span style="--i:21"></span>
+            <span style="--i:22"></span>
+            <span style="--i:16"></span>
+            <span style="--i:25"></span>
+            <span style="--i:19"></span>
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:15"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+            <span style="--i:13"></span>
+            <span style="--i:15"></span>
+            <span style="--i:20"></span>
+            <span style="--i:23"></span>
+        </div>
+
 <div class="flip" id="cat"></div>
     <?php
     date_default_timezone_set('Asia/Taipei'); //宣告時區
@@ -99,7 +148,6 @@
                     <div class="straight3"></div>
                     <div class="straight4"></div>
                 </div>
-
             </div>
             <div class="message">
                 <div class="poetry">
@@ -696,6 +744,7 @@
 
         </div>
     </div>
+
     <script src="./js/main.js"></script>
 </body>
 

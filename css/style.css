@@ -2,9 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://picsum.photos/id/654/2509/1300);
-    background-size: cover;
-    height: 120vh;
+    background-image: linear-gradient(#232661,#060A61);
+    height: 100vh;
     position: relative;
 }
 
@@ -12,7 +11,7 @@ body{
     width: 960px;
     display: flex;
     flex-wrap: wrap;
-    margin: 25px auto 0;
+    margin: 0 auto 0;
 }
 .nav{
     width: 960px;
